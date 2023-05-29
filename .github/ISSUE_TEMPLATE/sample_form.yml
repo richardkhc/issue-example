@@ -38,13 +38,13 @@ body:
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: code-output
     attributes:
       label: Relevant code snippet
       description: Please copy and paste any relevant code snippet. This will be automatically formatted into code, so no need for backticks.
       render: Python
   - type: textarea
-    id: logs
+    id: logs-output
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
