@@ -33,7 +33,7 @@ body:
   - type: dropdown
     id: causalnex-version
     attributes:
-      label: Causalnex Version
+      label: CausalNex Version
       description: What version of CausalNex are you running?
       options:
         - 0.12.0 (latest)
