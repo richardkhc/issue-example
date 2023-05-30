@@ -25,9 +25,8 @@ body:
     id: description
     attributes:
       label: Short description of the problem here.
-      description: Also include steps to reproduce the problem.
-      placeholder: Short description of the problem here.
-      value: "Short description of the problem here."
+      description: Short description of the problem including steps to reproduce the problem.
+      placeholder: Short description of the problem including steps to reproduce the problem.
     validations:
       required: true
   - type: dropdown

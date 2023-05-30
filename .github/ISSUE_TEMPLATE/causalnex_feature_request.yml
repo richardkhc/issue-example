@@ -26,6 +26,7 @@ body:
     attributes:
       label: Feature Description
       description: Provide a brief summary of the feature you would like to suggest.
+      placeholder: Provide a brief summary of the feature you would like to suggest.
     validations:
       required: true
   - type: textarea
@@ -33,6 +34,7 @@ body:
     attributes:
       label: Why is this feature needed?
       description: Please explain why this feature would be useful and how it would benefit the project.
+      placeholder: Please explain why this feature would be useful and how it would benefit the project.
     validations:
       required: true
   - type: textarea
