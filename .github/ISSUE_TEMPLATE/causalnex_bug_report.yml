@@ -60,12 +60,14 @@ body:
       label: Relevant code snippet
       description: Please copy and paste any relevant code snippet. This will be automatically formatted into code, so no need for backticks.
       render: Python
+      placeholder: print("hello world")
   - type: textarea
     id: logs-output
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      render: 
+      placeholder: ZeroDivisionError: division by zero
   - type: checkboxes
     id: terms
     attributes:

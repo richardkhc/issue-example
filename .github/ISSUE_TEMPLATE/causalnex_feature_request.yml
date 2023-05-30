@@ -45,9 +45,10 @@ body:
   - type: textarea
     id: code-output
     attributes:
-      label: Possible imeplementation
+      label: Possible implementation
       description: Please copy and paste any relevant code snippet. This will be automatically formatted into code, so no need for backticks.
       render: Python
+      placeholder: print("hello world")
   - type: checkboxes
     id: terms
     attributes:
